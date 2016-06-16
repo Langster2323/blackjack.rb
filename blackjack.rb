@@ -82,6 +82,15 @@ class Hand
     puts "Player: #{receive}"
     puts "Computer: #{receive}"
 
+    if player.value > computer.value
+      puts "Player wins!"
+    elsif player.value < computer.value
+      puts "Computer wins!"
+    else
+      puts "Tie"
+    end
+  end
+
   end
 end
 
