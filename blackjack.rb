@@ -75,10 +75,13 @@ class Hand
 
   def receive(card)
     puts "I've received my cards!"
-    (2).each do |cards|
+    (2).select do |cards|
   end
 
   def play
+    puts "Player: #{receive}"
+    puts "Computer: #{receive}"
+
   end
 end
 
