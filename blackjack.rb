@@ -1,7 +1,7 @@
 # - Create a Card class
 # - Data: Suits & Numbers, and Number of Cards
 # = Behavior: A card knows it's rank. A card can display itself as a string
-module CardGame
+
 
 class Cards
   attr_accessor :cards, :suits, :rank
